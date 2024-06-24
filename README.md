@@ -1,3 +1,5 @@
+Random Die Simulation
+
 # NU_MSDS460_Week7_Discussion_Simulation
 #The probability an unfair die rolls a number is proportional to that number.  Pick two of these unfair, N-sided die (you choose the N ). and sum the values.  Write a simulation to estimate the mean and the variance of the sum of the dice.
 
