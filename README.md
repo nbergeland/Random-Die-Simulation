@@ -1,10 +1,16 @@
-Random Die Simulation
+# Random Die Simulation
 
-# NU_MSDS460_Week7_Discussion_Simulation
-#The probability an unfair die rolls a number is proportional to that number.  Pick two of these unfair, N-sided die (you choose the N ). and sum the values.  Write a simulation to estimate the mean and the variance of the sum of the dice.
+## Purpose and Scope
+The Random Die Simulation repository provides a Monte Carlo simulation system for modeling the behavior of biased dice. Specifically, it simulates rolling two unfair N-sided dice where the probability of rolling a number is proportional to that number. The primary purpose is to estimate the mean and variance of the sum of these two biased dice rolls through statistical sampling.
+
+## System Components
+The Random Die Simulation consists of several key components working together to perform the statistical simulation:
+
+### Figure 1: Key Components of the Random Die Simulation System
 
 #Code
 
+```
 import numpy as np
 import matplotlib.pyplot as plt
 import random
@@ -24,5 +30,6 @@ plt.show()
 ![image](https://user-images.githubusercontent.com/55772476/168692449-07935b43-addf-49b8-88c5-292d161f6e93.png)
 print(mean)
 print(variance)
+```
 8.669367
 4.438026819311004
